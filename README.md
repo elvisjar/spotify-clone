@@ -22,21 +22,29 @@ A modern Spotify clone built with Expo, React Native, and Firebase. This app rep
 
 ### Screenshots
 
-#### iOS
+<div align="center">
+  <h3>iOS Version</h3>
+  <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+    <img src="assets/demo/home-ios.png" width="200" alt="Home Screen iOS"/>
+    <img src="assets/demo/playback-modal-ios.png" width="200" alt="Playback Modal iOS"/>
+    <img src="assets/demo/controllers-ios.png" width="200" alt="Controllers iOS"/>
+    <img src="assets/demo/playback-options-ios.png" width="200" alt="Playback Options iOS"/>
+    <img src="assets/demo/artist-options-ios.png" width="200" alt="Artist Options iOS"/>
+  </div>
 
-![Home Screen iOS](assets/demo/home-ios.png)
-![Playback Modal iOS](assets/demo/playback-modal-ios.png)
-![Controllers iOS](assets/demo/controllers-ios.png)
-![Playback Options iOS](assets/demo/playback-options-ios.png)
-![Artist Options iOS](assets/demo/artist-options-ios.png)
-
-#### Android
-
-![Home Screen Android](assets/demo/home-android.png)
+  <h3>Android Version</h3>
+  <img src="assets/demo/home-android.png" width="200" alt="Home Screen Android"/>
+</div>
 
 ### Video Demo
 
-Check out the [demo video](assets/demo/demo.mov) to see the app in action!
+<div align="center">
+  <a href="assets/demo/demo.mov">
+    <img src="assets/demo/home-ios.png" width="200" alt="Click to watch demo video"/>
+    <br/>
+    <em>Click the image above to watch the demo video</em>
+  </a>
+</div>
 
 ## Prerequisites
 
