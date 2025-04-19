@@ -22,29 +22,24 @@ A modern Spotify clone built with Expo, React Native, and Firebase. This app rep
 
 ### Screenshots
 
-<div align="center">
-  <h3>iOS Version</h3>
-  <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-    <img src="assets/demo/home-ios.png" width="200" alt="Home Screen iOS"/>
-    <img src="assets/demo/playback-modal-ios.png" width="200" alt="Playback Modal iOS"/>
-    <img src="assets/demo/controllers-ios.png" width="200" alt="Controllers iOS"/>
-    <img src="assets/demo/playback-options-ios.png" width="200" alt="Playback Options iOS"/>
-    <img src="assets/demo/artist-options-ios.png" width="200" alt="Artist Options iOS"/>
-  </div>
+#### iOS Version
 
-  <h3>Android Version</h3>
-  <img src="assets/demo/home-android.png" width="200" alt="Home Screen Android"/>
-</div>
+|                       Home                        |                       Playback Modal                        |                       Controllers                        |                       Playback Options                        |                       Artist Options                        |
+| :-----------------------------------------------: | :---------------------------------------------------------: | :------------------------------------------------------: | :-----------------------------------------------------------: | :---------------------------------------------------------: |
+| <img src="assets/demo/home-ios.png" width="160"/> | <img src="assets/demo/playback-modal-ios.png" width="160"/> | <img src="assets/demo/controllers-ios.png" width="160"/> | <img src="assets/demo/playback-options-ios.png" width="160"/> | <img src="assets/demo/artist-options-ios.png" width="160"/> |
+
+#### Android Version
+
+|                      Home Screen                      |
+| :---------------------------------------------------: |
+| <img src="assets/demo/home-android.png" width="160"/> |
 
 ### Video Demo
 
-<div align="center">
-  <a href="assets/demo/demo.mov">
-    <img src="assets/demo/home-ios.png" width="200" alt="Click to watch demo video"/>
-    <br/>
-    <em>Click the image above to watch the demo video</em>
-  </a>
-</div>
+|                              Click to watch demo video                               |
+| :----------------------------------------------------------------------------------: |
+| <a href="assets/demo/demo.mov"><img src="assets/demo/home-ios.png" width="160"/></a> |
+|                   _Click the image above to watch the demo video_                    |
 
 ## Prerequisites
 
