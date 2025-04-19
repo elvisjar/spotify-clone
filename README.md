@@ -1,50 +1,117 @@
-# Welcome to your Expo app 👋
+# Spotify Clone App 🎵
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern Spotify clone built with Expo, React Native, and Firebase. This app replicates the core control features of Spotify, allowing users to manage playback, browse content, and control their Spotify experience.
 
-## Get started
+## Features
 
-1. Install dependencies
+- 🎧 Full Spotify playback controls (play/pause, next/previous, volume, etc.)
+- 📱 Cross-platform support (iOS & Android)
+- 🔐 Firebase Authentication with Google Sign-in
+- 🎨 Modern UI with smooth animations
+- 🔄 Real-time sync with Spotify app
+
+## Current Status
+
+- ✅ Firebase Authentication with Google Sign-in
+- ✅ Smooth animations for modals and playback controls
+- ✅ Playback controls fully implemented
+- 🚧 Artist browsing (work in progress)
+- 🚧 Playlist management (coming soon)
+
+## Demo
+
+### Screenshots
+
+#### iOS
+
+![Home Screen iOS](assets/demo/home-ios.png)
+![Playback Modal iOS](assets/demo/playback-modal-ios.png)
+![Controllers iOS](assets/demo/controllers-ios.png)
+![Playback Options iOS](assets/demo/playback-options-ios.png)
+![Artist Options iOS](assets/demo/artist-options-ios.png)
+
+#### Android
+
+![Home Screen Android](assets/demo/home-android.png)
+
+### Video Demo
+
+Check out the [demo video](assets/demo/demo.mov) to see the app in action!
+
+## Prerequisites
+
+Before you begin, ensure you have:
+
+- Node.js (v14 or later)
+- npm or yarn
+- Expo CLI
+- iOS Simulator (for Mac users) or Android Emulator
+- A Spotify Developer account
+- A Firebase project with Google Sign-in enabled
+
+## Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone [your-repo-url]
+   cd spotify-clone
+   ```
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Create a `.env` file in the root directory with your Spotify API credentials:
 
-   ```bash
-    npx expo start
+   ```
+   EXPO_PUBLIC_SPOTIFY_CLIENT_ID=your_spotify_client_id
+   EXPO_PUBLIC_SPOTIFY_SECRET=your_spotify_client_secret
    ```
 
-In the output, you'll find options to open the app in a
+4. Add Firebase configuration:
+   - For Android: Place your `google-services.json` file in the root directory
+   - For iOS: Place your `GoogleService-Info.plist` file in the root directory
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Running the App
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Start the development server:
 
-## Get a fresh project
+   ```bash
+   npx expo start
+   ```
 
-When you're ready, run:
+2. Choose your preferred method to run the app:
+   - Press `i` to open in iOS simulator
+   - Press `a` to open in Android emulator
+   - Scan the QR code with the Expo Go app on your physical device
 
-```bash
-npm run reset-project
-```
+## Development
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+The app uses Expo's file-based routing system. Main components and screens are located in the `app` directory.
 
-## Learn more
+## Environment Variables
 
-To learn more about developing your project with Expo, look at the following resources:
+The following environment variables are required:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- `EXPO_PUBLIC_SPOTIFY_CLIENT_ID`: Your Spotify API client ID
+- `EXPO_PUBLIC_SPOTIFY_SECRET`: Your Spotify API client secret
 
-## Join the community
+## Firebase Configuration
 
-Join our community of developers creating universal apps.
+Make sure you have:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Created a Firebase project
+2. Enabled Google Sign-in authentication
+3. Added your app to the Firebase project
+4. Downloaded and placed the configuration files in the correct locations
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
